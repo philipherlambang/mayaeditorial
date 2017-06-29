@@ -1,0 +1,1746 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow');
+
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    color: #333;
+    padding-top: 50px;
+}
+
+body.no-padding{
+  padding-top: 0 !important;
+}
+
+p{
+    line-height: 21px;
+}
+
+p a{
+  text-decoration: none;
+}
+
+p a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-default{
+    background: #fff !important;
+    border: none !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 90%;
+}
+
+.maya-small-padding{
+    padding: 10px 15px !important;
+}
+
+.maya-well-padding{
+    padding: 20px 0 40px 0 !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.maya-text-small{
+    font-size: 85% !important;
+}
+
+.maya-letter-spaced{
+    letter-spacing: 1px;
+}
+
+.maya-text-black{
+    color: #000000;
+}
+
+.maya-text-yellow{
+    color: #e4e5b9;
+}
+
+.maya-text-yellow-2{
+    color: #eaca63;
+}
+
+.maya-text-orange{
+    color: #FF5A5F;
+}
+
+.maya-text-red{
+    color: #993a52;
+}
+
+.maya-text-white{
+    color: #ffffff !important;
+}
+
+.text-plain{
+    text-decoration: none;
+}
+
+.maya-text-thin{
+    font-weight:300;
+}
+
+.maya-text-bold{
+    font-weight:bold;
+}
+
+.maya-text-gray{
+    color: #666666;
+}
+
+/* override */
+
+li.dropdown .nav>li>a{
+    text-transform: uppercase;
+    color: #000000 !important;
+    font-size: 90% !important;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+    background: none !important;
+    color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.navbar-brand{
+    padding: 8px !important;
+}
+
+.navbar-default{
+    background: transparent !important;
+}
+
+.navbar-default .navbar-toggle{
+    border: none !important;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+    background: none !important;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar{
+    background: #fadc6c !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background: #333;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff !important;
+    text-align: right;
+    font-weight: 300;
+    font-size: 12px;
+    position: relative;
+}
+
+.navbar-default .navbar-nav>li>a .item-number{
+  position: absolute;
+  background: red;
+  padding: 2px 8px;
+  border-radius: 15px;
+  top: 0;
+  right: -5px;
+}
+
+.navbar-toggle{
+    margin-right: 0 !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #ccc !important;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    background: none !important;
+}
+
+.nav>li>a{
+    color: #000000;
+    font-size: 90%;
+}
+
+.form-control input{
+    box-shadow: none !important;
+}
+
+.dropdown-menu>li>a{
+    padding: 10px 20px !important;
+}
+
+@media (min-width: 768px){
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        background: none !important;
+    }
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    z-index: 9999;
+}
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+/*min-height: 200px !important;*/
+/*background-size: cover;*/
+    background-position: 50% !important;
+    width: 100% !important;
+    position: relative !important;
+    top:0 !important;
+    left:0 !important;
+    /*margin-top:50px !important;*/
+}
+
+/* buttons */
+.maya-default-black{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-weight: 300;
+    border-color: #000000;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -khtml-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+.maya-default-orange{
+    background-color: #f49d54 !important;
+    color: #ffffff !important;
+    font-weight: 300;
+    border-color: #f49d54 !important;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -khtml-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+.maya-default-orange:hover{
+    background-color: #f5ce50 !important;
+}
+
+.maya-default-red{
+    background-color: #983951 !important;
+    color: #ffffff !important;
+    font-weight: 300;
+    border: 1px solid #983951 !important;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -khtml-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+.maya-default-red:hover{
+    background-color: #ffffff !important;
+    border: 1px solid #983951;
+    color: #983951 !important;
+}
+
+.maya-button-default{
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #666;
+}
+
+.maya-button-default:hover{
+    border: 1px solid black;
+}
+
+.maya-default-black:hover{
+    background: #ffffff !important;
+    color: #000 !important;
+    border-color: #000000;
+}
+
+.maya-button-default i{
+    font-size: 19px;
+}
+
+.maya-button-default img{
+    width: 20px;
+}
+
+/* signup login */
+.maya-account-container{
+    padding: 50px 30px 0 30px;
+}
+
+.maya-account-container .login .form-group input, .maya-account-container .form-group input{
+    background: none;
+    padding:10px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    box-shadow: none;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
+
+.form-control:focus{
+    border-color: black !important;
+}
+
+.maya-account-container button{
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    letter-spacing: 1px;
+    font-size: 87%;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+    letter-spacing: 1px;
+    font-size: 87%;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+    letter-spacing: 1px;
+    font-size: 87%;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+    letter-spacing: 1px;
+    font-size: 87%;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+
+/* features */
+.maya-feature-container{
+    padding: 20px 0px;
+}
+
+.thumbnail{
+    padding: 0px !important;
+    border: none !important;
+}
+
+.maya-title-feature{
+    color: #484848;
+    margin: 25px 0;
+}
+
+.maya-feature-container .list-image-feature{
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 0.5px solid #ffffff;
+}
+
+.card-title{
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.card{
+    margin: 20px 0 !important;
+    font-size: 95%;
+}
+
+
+.thumbnail .caption{
+    padding: 0 !important;
+}
+
+.thumbnail .caption p{
+    margin-bottom: 0px !important;
+}
+
+.thumbnail a>img, .thumbnail>img{
+    width: 100%;
+}
+
+.card address{
+    padding: 0 10px;
+}
+
+/* search */
+.search-form{
+    position: relative;
+
+}
+
+.search-input{
+    text-align: left;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-weight: 100;
+    padding: 0;
+    white-space: nowrap;
+/*line-height: 120px;*/
+    font-size: 48px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 0 !important;
+    margin-top: 20px;
+}
+
+.search-input:focus{
+    border-bottom: 1px solid #dddddd;
+}
+
+.container-center{
+    margin: 0 auto;
+}
+
+.glyphicon-chevron-right{
+    background: url("../images/arrow_right.png") no-repeat !important;
+    width: 30px;
+    height:30px;
+    background-size: 100% !important;
+}
+
+.glyphicon-chevron-left{
+    background: url("../images/arrow_left.png") no-repeat !important;
+    width: 30px;
+    height:30px;
+    background-size: 100% !important;
+}
+
+.glyphicon-chevron-right:before, .glyphicon-chevron-left:before{
+    display: none !important;
+}
+
+.carousel{
+    /* karena bottom navigation dihilangkan dulu margin-top: -50px;*/
+}
+
+.restaurant-logo-wrapper{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: -140px;
+}
+
+/* bottom navigation */
+.maya-bottom-navigation{
+    background: black;
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid black;
+}
+
+.maya-bottom-navigation a{
+    width: 25%;
+    text-decoration: none;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    color: white;
+}
+
+.Index{
+    padding-bottom: 60px;
+}
+
+
+/* slide horizontal tags */
+.maya-container-outer {
+    overflow-x: scroll;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.maya-container-inner {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.maya-container-inner button{
+    margin: 0 5px;
+    background: white;
+    border: 1px solid #a13d57;
+    border-radius: 3px;
+    color: #a13d57;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:11px;
+    -o-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -khtml-transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+.maya-container-inner button:hover{
+    background: #a13d57;
+    border: 1px solid #a13d57;
+    color: #ffffff;
+}
+/* slide horizontal tags ends */
+
+.carousel-indicators .active{
+    background: #FF5A5F !important;
+    width: 6px !important;
+    height: 6px !important;
+    margin: 0px 5px !important;
+}
+
+.carousel-indicators li{
+    background: #ffffff !important;
+    width: 6px !important;
+    height: 6px !important;
+    border: none !important;
+    margin: 0px 5px !important;
+}
+
+.maya-mobile-button{
+    background: #000000;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    margin: 8px 10px;
+    font-weight: 300;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.maya-articles{
+    width: 980px !important;
+    padding-left: 1.75em !important;
+    padding-right: 1.75em !important;
+}
+
+
+@media (min-width : 640px) and (max-width: 767px) {
+  .product-card{
+    min-height: 445px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+}
+
+
+.maya-navbar{
+    background: #333 !important;
+    border-radius: 0 !important;
+    -moz-box-shadow: 0px -2px 32px #000;
+    -webkit-box-shadow: 0px -2px 32px #000;
+    box-shadow: 0px -2px 32px #000;
+}
+
+.teaser-square-large,
+.teaser-right
+{
+    position: relative;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 3em;
+    background: black;
+
+}
+
+.teaser-square-large:hover,
+.teaser-right:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.teaser-square-large img,
+.teaser-right img
+{
+    width: 100%;
+}
+
+.maya-teaser-square-small{
+    position: relative;
+    display: block;
+    /*margin-bottom: 3em;*/
+}
+
+.teaser-landscape-middle{
+    position: relative;
+    display: block;
+    margin-bottom: 3em;
+}
+
+.maya-teaser-square-small img,
+.teaser-landscape-middle img
+{
+    width: 100%;
+}
+
+.maya-teaser-square-small:hover,
+.teaser-landscape-middle:hover
+{
+    text-decoration: none;
+}
+
+.maya-teaser-square-small .maya-teaser-text,
+.teaser-landscape-middle .maya-teaser-text
+{
+    width: 100%;
+    color: black;
+}
+
+.maya-teaser-square-small .maya-teaser-text h2,
+.teaser-landscape-middle .maya-teaser-text h2{
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.25;
+    margin-top: 10px;
+}
+
+.maya-teaser-square-small .maya-teaser-text p,
+.teaser-landscape-middle .maya-teaser-text p{
+    line-height: 16px;
+}
+
+.maya-kicker{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /*line-height: 24px;*/
+    /*margin-bottom: 5px;*/
+    color: #ffb400;
+}
+
+.teaser-upright-media {
+    height:0;
+    padding-bottom:125%;
+}
+
+.teaser-media a{
+    background-color:#000;
+    position:relative;
+}
+
+.teaser-media a:after{
+    bottom:0;
+    content:"";
+    height:100%;
+    left:0;
+    position:absolute;
+    right:0;
+    top:0;
+    width:100%;
+    background-image:-webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.8)), color-stop(60%, transparent));
+    background-image:-webkit-linear-gradient(bottom, rgba(0,0,0,0.8) 0%, transparent 60%);
+    background-image:-o-linear-gradient(bottom, rgba(0,0,0,0.8) 0%, transparent 60%);
+    background-image:linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%)
+}
+
+hr{
+    border-top: 2px solid #000000 !important;
+}
+
+.maya-article-header, .maya-main-article{
+    max-width: 660px;
+    margin: 40px auto;
+}
+
+.maya-main-article p{
+    font-size: 1.25em;
+    line-height: 1.5 !important;
+}
+
+.maya-main-article img{
+    margin: 30px 0;
+    width: 100%;
+}
+
+.short-description{
+    line-height: 36px;
+}
+
+.maya-logo-merchant{
+    width: 90px !important;
+    text-align: center;
+    margin: 15px auto;
+    display: block;
+}
+
+.list-image-feature a{
+  color: black;
+  font-size: 12px;
+}
+
+.list-image-feature a:hover{
+  text-decoration: none;
+  color: orange;
+}
+
+.carousel-control.left, .carousel-control.right{
+  background: none !important;
+}
+
+a.text-orange:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.carousel-inner .teaser-square-large{
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px){
+    .carousel-indicators{
+        bottom: 0px;
+    }
+}
+
+.maya-price{
+    color: #983951;
+    font-weight: bold;
+}
+
+
+.maya-sticky-head{
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 50px;
+  z-index: 9999;
+  background: white;
+  /*width: 100%;*/
+  display: block;
+  padding: 10px 20px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  overflow: auto;
+}
+
+.share-button-wrapper{
+  overflow: auto;
+  margin-top: 5px;
+}
+
+.share-button-wrapper a{
+  margin: 0 3px;
+  min-width: 30px;
+  padding: 3px 5px;
+}
+
+.share-button-wrapper a i{
+  font-size: 90%;
+}
+
+
+
+
+
+/* --------------- landscape phones and portrait tablets start ------------------------ */
+@media (max-width: 767px) {
+    .carousel-indicators{
+        bottom: 0px;
+    }
+
+    .maya-store-hero{
+        min-height: 300px !important;
+        background-size: cover;
+        background-position: 50%;
+        width: 100%;
+        position: relative;
+        top:0;
+        left:0;
+    }
+
+    .teaser-square-large .maya-teaser-text,
+    .teaser-right .maya-teaser-text{
+        position: absolute;
+        bottom: 0;
+        padding: .5em 8% 150px;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .maya-fancy-slideshow-text{
+        font-size: 40px;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .my-account-content{
+      background: white;
+      float: right;
+      padding: 10px 20px !important;
+    }
+
+    .head-image{
+      background: url(../images/victoriacana.jpg);
+      height: 256px;
+      background-size: cover;
+    }
+
+
+}
+/* --------------- landscape phones and portrait tablets ends ------------------------ */
+
+
+
+
+
+
+
+
+/* --------------- landscape tablets and medium desktop start ------------------------ */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .teaser-square-large .maya-teaser-text,
+    .teaser-right .maya-teaser-text{
+        position: absolute;
+        bottom: 0;
+        padding: .5em 8% 50px;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .maya-fancy-slideshow-text{
+        font-size: 40px;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        margin: 0;
+        font-weight: bold;
+    }
+    .maya-store-hero{
+        min-height: 300px !important;
+        background-size: cover;
+        background-position: 50%;
+        width: 100%;
+        position: relative;
+        top:0;
+        left:0;
+    }
+
+    .maya-teaser-text{
+        min-height: 80px;
+    }
+
+    .left-desktop-article{
+        padding-left: 0;
+    }
+
+    .right-desktop-article{
+        padding-right: 0;
+    }
+
+    .carousel-indicators{
+        bottom: 10px !important;
+    }
+
+    .maya-logo-merchant{
+        width: 60px !important;
+    }
+
+    .play-icon{
+      font-size:38px;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .video-container iframe{
+      height: 60vh;
+    }
+
+
+}
+
+/* --------------- landscape tablets , iPad pro and medium desktop ends ------------------------ */
+
+
+
+
+
+
+
+/* --------------- large desktop start ------------------------ */
+@media (min-width: 1200px) {
+    .teaser-square-large .maya-teaser-text,
+    .teaser-right .maya-teaser-text{
+        position: absolute;
+        bottom: 0;
+        padding: .5em 8% 150px;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .maya-fancy-slideshow-text{
+        font-size: 40px;
+        line-height: 98px;
+        letter-spacing: -0.01em;
+        margin: 0;
+        font-weight: bold;
+        width: 100%;
+        text-align: left;
+    }
+
+    .footer-nav-content a{
+        font-weight: 300;
+        color: #777777;
+        text-align: left;
+    }
+
+    .footer-nav-heading{
+        text-align: left;
+        color: #000000;
+        font-size: 100%;
+        margin-top: 10px;
+    }
+
+    .text-feature{
+        font-size: 18px;
+        line-height:24px;
+        letter-spacing: 1px;
+        color: #666666;
+        font-weight: 300;
+        padding: 20px 200px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .maya-store-hero{
+        /*min-height: 430px !important;*/
+    }
+
+    .maya-teaser-square-small{
+        min-height: 280px;
+    }
+
+    .index-hero-heading,
+    .merchant-hero-heading,
+    .merchant-detail-hero-heading,
+    .maya-store-hero-heading,
+    .product-detail-hero-heading,
+    .merchant-suci-hero-heading
+    {
+        font-size: 42px !important;
+        line-height: normal;
+        padding-top: 150px;
+    }
+
+    .index-hero,
+    .merchant-hero,
+    .merchant-detail-hero,
+    .maya-store-hero,
+    .product-detail-hero,
+    .sucicakes-hero,
+    .merchant-suci-hero
+    {
+        min-height: 500px !important;
+    }
+
+    .maya-title-feature{
+        font-size:24px ;
+        line-height: normal;
+        margin: 30px 0;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+
+    .subtitle-feature{
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: #777777;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .maya-minus-gap{
+        margin-top:-50px;
+    }
+
+    .carousel-indicators{
+        bottom: 30px !important;
+    }
+
+    .carousel-inner{
+        height: 740px;
+    }
+
+    .maya-logo-merchant{
+        width: 60px !important;
+    }
+
+    .product-card{
+        min-height: 375px;
+    }
+
+    .price{
+        font-size: 13px !important;
+        letter-spacing: 0 !important;
+    }
+
+    .maya-main-article p {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: black !important;
+    }
+
+    .short-description{
+        color: black;
+    }
+
+    .play-icon{
+      font-size:98px;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .video-container iframe{
+      height: 100vh !important;
+    }
+}
+/* --------------- large desktop ends ------------------------ */
+
+
+
+
+
+
+/* --------------- small desktop and iPad start ------------------------ */
+@media (min-width: 768px) and (max-width: 991px) {
+    .teaser-square-large .maya-teaser-text,
+    .teaser-right .maya-teaser-text{
+        position: absolute;
+        bottom: 0;
+        padding: .5em 8% 40px;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .video-container iframe{
+      height: 40vh;
+    }
+
+    .maya-fancy-slideshow-text{
+        font-size: 30px;
+        line-height: normal;
+        letter-spacing: -0.01em;
+        margin: 0;
+        font-weight: bold;
+        width: 640px;
+    }
+
+    .play-icon{
+      font-size:38px;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .maya-store-hero{
+        min-height: 350px !important;
+        background-size: cover;
+        background-position: 50%;
+        width: 100%;
+        position: relative;
+        top:0;
+        left:0;
+    }
+
+    .carousel-caption {
+        font-size: 32px;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .maya-articles{
+        width: 640px !important;
+    }
+
+    .maya-articles img{
+        width: 100%;
+    }
+
+    .carousel-indicators{
+        bottom: 0px !important;
+    }
+
+    .maya-teaser-square-small .maya-teaser-text{
+        min-height: 80px;
+    }
+
+    .carousel-inner{
+        height: 430px;
+    }
+
+    .maya-logo-merchant{
+        width: 60px !important;
+    }
+
+    .description-card{
+      margin-left: 0 !important;
+      overflow: auto;
+      box-shadow: none !important;
+    }
+
+    .my-account-image{
+      position: relative !important;
+      height: 511px !important;
+    }
+}
+/* --------------- small desktop ends ------------------------ */
+
+
+
+
+
+
+
+/* --------------- Phone smaller start ------------------------ */
+@media (max-width: 480px) {
+    .index-hero,
+    .merchant-hero,
+    .merchant-detail-hero,
+    .maya-store-hero,
+    .product-detail-hero,
+    .sucicakes-hero,
+    .merchant-suci-hero
+    {
+        min-height: 300px !important;
+        background-size: cover;
+        background-position: 50%;
+        width: 100%;
+        position: relative;
+        top:0;
+        left:0;
+        /* FIXME: ini dicomment karena pakai navigasi atas margin-top:-50px;*/
+    }
+
+    .index-hero-heading,
+    .merchant-hero-heading,
+    .merchant-detail-hero-heading,
+    .maya-store-hero-heading,
+    .product-detail-hero-heading,
+    .merchant-suci-hero-heading
+    {
+        font-size: 32px;
+        line-height: normal;
+        padding-top: 100px;
+    }
+
+    .maya-title-feature{
+        font-size: 16px;
+        line-height: normal;
+        padding: 0 20px;
+    }
+
+    .subtitle-feature{
+        font-weight: 300;
+        text-align: left;
+        padding: 0 20px;
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: #777777;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .footer-nav-content a{
+        font-weight: 300;
+        color: #777777;
+        text-align: center;
+    }
+
+    .footer-nav-heading{
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        font-size: 90%;
+        margin-top: 10px;
+    }
+
+    .text-feature{
+        font-size: 16px;
+        line-height:24px;
+        letter-spacing: 1px;
+        color: #666666;
+        font-weight: 300;
+        padding: 10px;
+        margin: 20px 0;
+    }
+
+    .maya-navbar{
+        background: #333 !important;
+        -moz-box-shadow: 0px -2px 32px #000;
+        -webkit-box-shadow: 0px -2px 32px #000;
+        box-shadow: 0px -2px 32px #000;
+    }
+
+    .card ul{
+        font-size: 16px !important;
+    }
+
+    .product-card{
+        padding: 5px;
+        /*min-height: 280px !important;*/
+    }
+
+    .teaser-square-large .maya-teaser-text,
+    .teaser-right .maya-teaser-text{
+        position: absolute;
+        bottom: 0;
+        padding: .5em 8% 60px;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .maya-teaser-square-small{
+        margin-bottom: 15px !important;
+    }
+
+    .maya-teaser-text h3{
+        font-size: 14px !important;
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: left;
+        color: #fadc6c !important;
+    }
+
+    .maya-feature-product{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .no-gutter > [class*='col-'] {
+        padding-right:0;
+        padding-left:0;
+    }
+
+    .maya-articles{
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .left-desktop-article, .right-desktop-article{
+        /*padding: 0 1.75em;*/
+        padding: 0 .5em;
+    }
+
+    .teaser-landscape-middle .maya-teaser-text{
+        padding: 0 1.75em;
+    }
+
+    .mobile-horizontal-padding{
+        padding: 0 1.75em;
+    }
+
+    .article-wrapper img{
+        width: 100%;
+    }
+
+    .maya-article-header, .maya-main-article{
+        padding-left: .93em;
+        padding-right: .93em;
+    }
+
+    .mobile-title{
+        font-size: 1.5em;
+        line-height: .7em;
+        margin-top: 0;
+    }
+
+    .short-description{
+        font-size: 18px;
+        line-height: 1.5em !important;
+        font-weight: 700;
+        margin: 10px 0;
+        color: black;
+        padding: 10px 0 !important;
+        letter-spacing: 1px;
+    }
+
+    .maya-main-article p{
+        font-size: 16px;
+        line-height: 22px !important;
+        color: black;
+    }
+
+    .teaser-media h2{
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .maya-teaser-text h2{
+        font-size: 14px !important;
+    }
+
+    .maya-teaser-square-small{
+        margin-bottom: 20px !important;
+    }
+
+    .maya-logo-merchant{
+        width: 60px !important;
+    }
+
+    .carousel-inner{
+        height: 200px;
+    }
+
+    .carousel-inner img{
+        /*height: 200px;*/
+        width: 100%;
+        image-rendering: auto;
+    }
+
+    .carousel-indicators {
+        bottom: -5px !important;
+    }
+
+    .maya-container-outer{
+        padding: 0;
+
+    }
+
+    .maya-container-inner a{
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .maya-teaser-square-small .maya-teaser-text{
+        min-height: 60px;
+    }
+
+    .maya-kicker{
+        font-size: 11px;
+    }
+
+    .maya-button-default{
+        padding: 10px 15px;
+    }
+
+    .text-description-product-detail{
+        font-size: 16.5px;
+        line-height: 24px;
+        letter-spacing: 0;
+        padding: 20px 0;
+    }
+
+    .container-mobile{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-fade .carousel-inner .item {
+        transition-property: opacity;
+    }
+    .carousel-fade .carousel-inner .item,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        opacity: 0;
+    }
+    .carousel-fade .carousel-inner .active,
+    .carousel-fade .carousel-inner .next.left,
+    .carousel-fade .carousel-inner .prev.right {
+        opacity: 1;
+    }
+    .carousel-fade .carousel-inner .next,
+    .carousel-fade .carousel-inner .prev,
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+        left: 0;
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-control {
+        z-index: 2;
+    }
+
+    .product-detail-carousel .item>img{
+        margin-left: 0;
+    }
+
+    .index-title{
+      font-size: 24px !important;
+      line-height: normal !important;
+    }
+
+    .description-card{
+      margin-left: 0 !important;
+      overflow: auto;
+    }
+
+    .user-profile-overlay{
+      width: 100px !important;
+      height: 100px !important;
+    }
+
+    .user-image-absolute{
+      width: 100px !important;
+    }
+
+    .profile-info{
+      padding-top: 40px !important;
+      padding-left: 125px !important;
+    }
+
+    .profile-info h3{
+      font-size: 16px;
+    }
+
+    .my-account-content{
+      background: white;
+      float: right;
+      padding: 10px 20px !important;
+    }
+
+    .head-image{
+      background: url(../images/victoriacana.jpg);
+      height: 210px;
+      background-size: cover;
+    }
+
+    .play-icon{
+      font-size:38px;
+      float: left;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    .maya-fancy-slideshow-text {
+      font-size: 20px;
+      font-family: "Georgia";
+      line-height: 1;
+      letter-spacing: -0.01em;
+      margin: 0;
+      font-weight: bold;
+  }
+
+  .video-container iframe{
+    height: 40vh;
+  }
+}
+/* --------------- Phone smaller ends ------------------------ */
+
+.text-orange-bold{
+  font-weight: bold;
+  color: #FF5A5F;
+}
+
+.index-title{
+  font-size: 20px;
+  line-height: 35px;
+  color: white;
+  font-family: 'Geogria', serif;
+  margin: 0;
+}
+
+.text-title{
+  font-weight: 700;
+  font-size: 36px;
+  color: #484848;
+  line-height: 44px;
+  padding: 6px 0;
+}
+
+.text-subtitle{
+  font-weight: 400;
+  font-size: 22px;
+  color: #484848;
+  line-height: normal;
+}
+
+.text-paragraph{
+  font-weight: 300;
+  color: #484848;
+  line-height: 24px;
+  font-size: 17px;
+}
+
+.description-card{
+  background: rgba(255,255,255,0.8);
+  padding: 20px;
+  margin-left: -40px;
+  margin-top: 30px;
+  -moz-box-shadow: 0px 0px 25px #858585;
+  -webkit-box-shadow: 0px 0px 25px #858585;
+  box-shadow: 0px 0px 25px #858585;
+}
+
+.list-unstyled li{
+  margin-bottom: 8px;
+  font-weight: 300;
+  color: #484848;
+  line-height: 24px;
+  font-size: 17px;
+}
+
+.button-primary{
+  background: #ff5a5f;
+  padding: 12px 24px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #ff5a5f;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.profile-image{
+  padding: 0 15px !important;
+  line-height: 50px !important;
+}
+
+.background-top-image{
+  background-image: url(../images/studio_large.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.user-profile-overlay{
+  padding: 50px 12px 0px 12px;
+  overflow: auto;
+  float: left;
+}
+
+.profile-info{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7));
+  height: 152px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 225px;
+  color: white;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.profile-info h3{
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.button-overlay-top{
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
+  text-align: right;
+}
+
+.button-overlay-top button{
+  background: #ff5a5f;
+  padding: 12px 24px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #ff5a5f;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.profile-tabs{
+  /*height: 46px;*/
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  color: #ff5a5f;
+  background: none;
+  border-bottom: 2px solid #ff5a5f;
+}
+
+.nav-pills>li>a{
+  border-radius: 0;
+  line-height: 44px;
+  padding: 0 15px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.left-side-bar{
+  padding-top: 60px;
+}
+
+.button-outline{
+  border: 1px solid #e6e6e6;
+  color: #666;
+  border-radius: 2px;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -khtml-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+.button-outline:hover{
+  background: #ff5a5f;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid #ff5a5f;
+}
+
+.button-secondary{
+  background: #ff5a5f;
+  color: white;
+  border-radius: 2px;
+  -o-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -khtml-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+.button-secondary:hover{
+  background: #fff;
+  color: #ff5a5f;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid #ff5a5f;
+}
+
+.profile-tabs .tab-content{
+  padding: 20px 0;
+  float: left;
+}
+
+.tab-content p, .tab-content address{
+  font-weight: 300;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.papan-badge{
+  background: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 4px 10px;
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.photo-info{
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+
+.user-profile-overlay{
+  width: 173px;
+  height: 173px;
+}
+
+.user-image-absolute{
+  border: 1px solid #e6e6e6;
+  position: absolute;
+  z-index: 999;
+  width: 173px;
+  background: white;
+}
+
+footer{
+  padding: 50px 0;
+}
+
+.no-padding .container-fluid, .no-padding .my-account-image{
+  padding: 0;
+}
+
+.my-account-image{
+  background-image: url(../images/victoriacana.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eee;
+  background-position: 52%;
+  height: 100vh;
+  position: fixed;
+}
+
+.my-account-content{
+  background: white;
+  float: right;
+  padding: 100px 60px;
+}
+
+.my-account-content p{
+  font-weight: 300;
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.tags-container a{
+  color: #9f9f9f;
+  letter-spacing: 0.5px;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.audio-control-container .fa-play{
+  color: white ;
+  line-height: 50px;
+  margin: 0 10px;
+}
+
+.text-yellow{
+  color: #ffb400 !important;
+}
+
+.maya-text-narrow{
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+.maya-text-serif{
+  font-family: 'georgia', serif;
+  line-height: 120%;
+}
+
+.video-detail-container{
+  padding-right: 0;
+  padding-left: 0;
+}
